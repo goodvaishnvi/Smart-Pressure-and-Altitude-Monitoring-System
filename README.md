@@ -71,8 +71,7 @@ The OLED remains ON for approximately 10 seconds after an update and then turns 
 Altitude is calculated using the barometric formula:
 
 \[
-Altitude = 44330 \times
-\left(1-\left(\frac{P}{P_0}\right)^{0.1903}\right)
+\boxed{h = 44330 \times \left[1-\left(\frac{P}{P_0}\right)^{0.1903}\right]}
 \]
 
 Where:
